@@ -1,0 +1,49 @@
+Thread 0xffaef180
+
+  locals:
+
+Thread 0xffaf6d10
+
+  locals:
+
+Thread 0xffb06b98
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (Unknown Source)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Unknown Source)
+
+  locals:
+    objectId=0xffb06c18, line=1
+    objectId=0xffb06c08, line=1
+    objectId=0xffb06c18, line=2
+    objectId=0xffb06b98, line=3
+
+Thread 0xffaef1e8
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:503)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Unknown Source)
+
+  locals:
+    objectId=0xffaef250, line=1
+    objectId=0xffaef1e8, line=2
+    objectId=0xffaef250, line=2
+
+Thread 0xffaf6ed8
+  at java.lang.OutOfMemoryError.<init>()V (Unknown Source)
+  at java.util.Arrays.copyOf([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object; (Unknown Source)
+  at java.util.Arrays.copyOf([Ljava/lang/Object;I)[Ljava/lang/Object; (Unknown Source)
+  at java.util.ArrayList.grow(I)V (Unknown Source)
+  at java.util.ArrayList.ensureExplicitCapacity(I)V (Unknown Source)
+  at java.util.ArrayList.ensureCapacityInternal(I)V (Unknown Source)
+  at java.util.ArrayList.add(Ljava/lang/Object;)Z (Unknown Source)
+  at com.seu.zuochengyun.堆溢出测试.main([Ljava/lang/String;)V (堆溢出测试.java:10)
+
+  locals:
+    objectId=0xff7ed800, line=1
+    objectId=0xffaec668, line=1
+    objectId=0xff7ed800, line=2
+    objectId=0xffaf6d78, line=3
+    objectId=0xffaf6d78, line=6
+    objectId=0xffcf8740, line=6
+    objectId=0xffaf6d78, line=7
+
